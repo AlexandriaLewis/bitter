@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bitter</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-left">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><span class="glyphicon glyphicon-home"> home</span></a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-flash"> moments</span></a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-bell"> notifications</span></a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-envelope"> messages</span></a></li>
+        </ul>
+      </div>
+      <div class="container-fluid navbar-right">
+        <form role="form" class="form-inline">
+          <div class="search form-group">
+            <input type="button" class="form-control" name="name" value="Search Bitter">
+            <a href="#" class="btn btn-default" role="button"><span class="glyphicon glyphicon-search form-group-addon"></span></a>
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-pencil form-group-addon"></span> tweet</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <!-- <div class="heroimg">
+
+    </div> -->
+
+    <!-- <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-pencil form-group-addon"></span> tweet</a></p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="jumbotron">
+      <img src="cagehero.jpg" alt="" />
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4 col-md-offset-2">
+        <div class="panel panel-info">
+          <div class="panel-heading"><h3 class="panel-title">Tweets</h3></div>
+          <div class="tweetsLanding">
+            <!-- tweets are put here -->
+            <div class="tweet panel-body">
+              <div class="avatar"><img src="https://www.placecage.com/c/300/340" alt=""></div>
+              <button type="button" class="heart btn btn-info"><span class="glyphicon glyphicon-heart"></span></button>
+              <h4>username</h5>
+              <p>Put the bunny back in the box.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="formLanding col-md-4">
+        <!-- form put here -->
+        <form role="form">
+          <div class="form-group"><input type="text" class="form-control" name="username" placeholder="Username"></div>
+          <div class="form-group"><textarea class="form-control" name="tweetText" rows="2" cols="50" placeholder="What's happening?"></textarea></div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="form container">
+
+    </div>
+
+  <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+  <script src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>

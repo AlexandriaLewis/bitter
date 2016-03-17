@@ -1,0 +1,42 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding: 0;
+  overflow: hidden;
+  height: 250px;
+  width: 100%;
+  img {
+    width: 100%;
+    position: relative;
+    top: -10px;
+  }
+}
+
+div.tweetsLanding {
+  border-bottom: .5px solid #bce8f1;
+  div.avatar {
+    width: 73px;
+    height: 73px;
+    overflow: hidden;
+    border-radius: 4%;
+    float: left;
+    margin-right: 10px;
+    img {
+      width: 200%;
+      position: relative;
+      left: -30px;
+    }
+  }
+  h4, h6 {
+    display: inline-block;
+    margin-top: 0;
+  }
+  p {
+    display: block;
+  }
+  .heart {
+    float: right;
+  }
+}

@@ -1,0 +1,33 @@
+.navbar {
+  margin-bottom: 0; }
+
+.jumbotron {
+  padding: 0;
+  overflow: hidden;
+  height: 250px;
+  width: 100%; }
+  .jumbotron img {
+    width: 100%;
+    position: relative;
+    top: -10px; }
+
+div.tweetsLanding {
+  border-bottom: .5px solid #bce8f1; }
+  div.tweetsLanding div.avatar {
+    width: 73px;
+    height: 73px;
+    overflow: hidden;
+    border-radius: 4%;
+    float: left;
+    margin-right: 10px; }
+    div.tweetsLanding div.avatar img {
+      width: 200%;
+      position: relative;
+      left: -30px; }
+  div.tweetsLanding h4, div.tweetsLanding h6 {
+    display: inline-block;
+    margin-top: 0; }
+  div.tweetsLanding p {
+    display: block; }
+  div.tweetsLanding .heart {
+    float: right; }
