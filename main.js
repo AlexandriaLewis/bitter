@@ -3,6 +3,6 @@ var $ = require('jquery');
 var Router = require('./router');
 
 $(document).ready(function () {
-  new Router();
+  // new Router();
   Backbone.history.start({pushstate: true});
 });

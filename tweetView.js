@@ -4,16 +4,21 @@ var tmpl = require('./templates');
 var LikeModel = require('./likesModel');
 
 module.exports =  Backbone.View.extend({
-  className: 'tweetsLanding',
+  // el: 'tweetsLanding',
   model: null,
   template: _.template(tmpl.tweet),
   events: {
-    'click .heart': 'addLike'
+    'click .heart': 'addLike',
+    'click .destroy': 'removeTweet'
   },
   addLike: function (event) {
     event.preventDefault();
     var newLike = new LikeModel(this.model.toJSON());
     newLike.save();
+  },
+  removeTweet: function(){
+    event.preventDefault();
+    this.model.destroy();
   },
   initialize: function () {},
   render: function () {

@@ -4,14 +4,14 @@ var $ = require('jquery');
 var TweetView = require('./tweetView');
 
 module.exports =  Backbone.View.extend({
-  className: '.tweetsLanding',
+  el: '.tweetsLanding',
   initialize: function () {
     this.addAll();
   },
 
   addOne: function (el) {
       var modelView = new TweetView({model: el});
-      this.$el.append(modelView.render().el);
+      this.$el.prepend(modelView.render().el);
   },
   addAll: function () {
     this.$el.html('');

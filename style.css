@@ -29,5 +29,5 @@ div.tweetsLanding {
     margin-top: 0; }
   div.tweetsLanding p {
     display: block; }
-  div.tweetsLanding .heart {
+  div.tweetsLanding .tweetBtns {
     float: right; }
